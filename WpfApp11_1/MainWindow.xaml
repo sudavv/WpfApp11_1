@@ -7,6 +7,34 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
+
+        <Path Fill="Red" Stroke="Black" VerticalAlignment="Center" HorizontalAlignment="Center" Stretch="Fill" Height="350" Width="350">
+
+            <Path.Data>
+                <EllipseGeometry Center="0,0" RadiusX="30" RadiusY="40"/>
+            </Path.Data>
+
+        </Path>
+
+
+        <Path Fill="White" Stroke="Black" VerticalAlignment="Center" HorizontalAlignment="Center" Margin="284.66,113.695,250.339,60.304">
+
+            <Path.Data>
+                <PathGeometry FillRule="Nonzero">
+
+                    <PathFigure StartPoint="0,200" IsClosed="True">
+                        <ArcSegment Point="250,50" Size="150,150"/>
+                    </PathFigure>
+
+                    <PathFigure StartPoint="-30,150" IsClosed="True">
+                        <ArcSegment Point="225,0" Size="150,150" SweepDirection="clockwise"/>
+                    </PathFigure>
+                </PathGeometry>
+            </Path.Data>
         
+        </Path>
+
+       
+
     </Grid>
 </Window>
